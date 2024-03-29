@@ -170,16 +170,123 @@ public class Main {
     // boolean isHyperpyrexia = tem >37 &&  tem > 39;
     // System.out.println(isHyperpyrexia);
     
-    boolean hasFever= true;
-    boolean hasPainInThroat=true;
-    boolean isGrowthOnAgar= true;
-    boolean isVarialInfection= (hasFever || hasPainInThroat) && !isGrowthOnAgar;
+    // boolean hasFever= true;
+    // boolean hasPainInThroat=true;
+    // boolean isGrowthOnAgar= true;
+    // boolean isVarialInfection= (hasFever || hasPainInThroat) && !isGrowthOnAgar;
     
-    System.out.println(isVarialInfection);
+    // System.out.println(isVarialInfection);
+
+    // /////////IF//////
+
+    // int income =120_000;
+    // boolean hasHighIncome=false;
+    // if(income > 1000){
+    //      hasHighIncome=true;
+    // }else{
+    //     hasHighIncome=false;
+    // }
 
 
+    // System.out.println(hasHighIncome);
 
 
+    // int income = 120_000;
+    // boolean hasHighIncome = income >100_000;
+
+    // System.out.println(hasHighIncome);
+
+    // int income =120_000;
+    // String className = "Economy";
+    // if(income > 100_000){
+    //     className="First";
+    // }
+
+
+    // }
+
+    // //////THE TERNARY //////
+
+    // int income =120_000;
+    // String className= income > 100_000 ? "First": "Economy";
+
+    // System.out.println(className);
+
+
+    // ////Switch Statements
+
+
+    // String role = "Admin";
+
+    // switch (role) {
+    //     case "Admin":
+    //     System.out.println("You are an admin");
+            
+    //         break;
+
+    //     case "Moderator":
+    //         System.out.println("You are an moderator");
+                
+    //             break;    
+    
+    //     default:
+    //     System.out.println("you are a guset");
+        
+    // }
+
+    // ////////FOR Looop////////
+
+    // for(int i = 0; i < 5; i++){
+    //     System.out.println("Hello World From Aya" + i);
+    // }
+
+    // ////////While Looop////////
+    Scanner scanner= new Scanner(System.in);
+    String input="";
+    // while (!input.equals("q")) {
+    //     System.out.print("Input : "); 
+    //     input = scanner.next().toLowerCase();
+    //     if(input.equals("pass"))
+    //          continue;
+    //     if(input.equals("q"))
+    //          break;
+    //     System.out.println(input);     
+        
+    // }\
+
+    // while (true) {
+    //     System.out.print("Input : "); 
+    //     input = scanner.next().toLowerCase();
+    //     if(input.equals("pass"))
+    //          continue;
+    //     if(input.equals("q"))
+    //          break;
+    //     System.out.println(input);     
+        
+    // }
+
+    //  //////////Do while loop //// at least one exucute
+
+    // do{
+    //     System.out.print("Input : "); 
+    //     input = scanner.next().toLowerCase();
+    //     System.out.println(input);
+
+    // }while(!input.equals("q"));
+
+
+    // //////ForEach loop
+
+    String [] fruits = {"Apple", "Mango","Orange"};
+
+    // for(int i=0; i< fruits.length; i++)
+    //    System.out.println(fruits[i]);
+
+    for(int i= fruits.length -1; i >= 0; i--)
+       System.out.println(fruits[i]);
+
+    // for(String fruit: fruits)
+    //    System.out.println(fruit);
 
     }
     
