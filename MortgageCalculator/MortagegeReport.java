@@ -22,10 +22,12 @@ public class MortagegeReport {
         System.out.println();
         System.out.println("PAYMENT SCHEDULE");
         System.out.println("----------------");
-        for (short month = 1; month <= calculator.getYear() * MortgageCalculator.MONTHS_IN_YEAR; month++) {
-            double balance = calculator.calculateBalance(month);
-            System.out.println(NumberFormat.getCurrencyInstance().format(balance));
-        }
+        for( double balance: calculator.getRemainingBalances())
+        System.out.println(NumberFormat.getCurrencyInstance().format(balance));
+        // for (short month = 1; month <= calculator.getYear() * MortgageCalculator.MONTHS_IN_YEAR; month++) {
+        //     double balance = calculator.calculateBalance(month);
+        //     System.out.println(NumberFormat.getCurrencyInstance().format(balance));
+        // }
     }
     
 }
